@@ -1,0 +1,10 @@
+[user]
+	name = Sven Fehler
+	email = svenfehler@sv443.net
+	signingkey = FB5AE352 # See https://github.com/Sv443/GPG
+
+[commit]
+	gpgsign = true
+
+[http]
+	sslVerify = true
