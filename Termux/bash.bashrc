@@ -1,4 +1,4 @@
-# Termux bashrc file at /data/data/com.termux/files/usr/etc/bash.bashrc
+# Termux bashrc file at /data/data/com.termux/files/usr/etc/bash.bashrc aka ~/../usr/etc/bash.bashrc
 
 # Command history tweaks:
 # - Append history instead of overwriting
