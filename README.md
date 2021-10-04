@@ -1,4 +1,11 @@
 ## My dotfiles
+My dotfiles for:
+- Git
+- zsh
+- bash
+- Termux (Android)
+
+<br>
 
 | File | Program |
 | :-- | :-- |
