@@ -26,8 +26,9 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 
 # Aliases
+alias ls="ls -G"
 alias ll="ls -lG"
 alias la="ls -laG"
+
 alias cls="clear"
 alias cl="clear"
-
