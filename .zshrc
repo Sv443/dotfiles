@@ -6,6 +6,8 @@ RPROMPT='%F{7}%*%f '
 # Aliases
 alias ls='ls -G'
 alias ll='ls -laG'
+alias la='ls -laG'
+
 alias cls='clear'
 alias cl='clear'
 
