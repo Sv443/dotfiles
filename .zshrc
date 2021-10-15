@@ -3,7 +3,7 @@ PROMPT='%F{171}%~%f %# '
 RPROMPT='%F{7}%*%f '
 
 
-# aliases
+# Aliases
 # clear screen
 alias cl='clear'
 alias cls='clear'
