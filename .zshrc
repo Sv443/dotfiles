@@ -3,15 +3,19 @@ PROMPT='%F{171}%~%f %# '
 RPROMPT='%F{7}%*%f '
 
 
-# Aliases
-alias ls='ls -G'
-alias ll='ls -laG'
-alias la='ls -laG'
-
-alias cls='clear'
+# aliases
+# clear screen
 alias cl='clear'
+alias cls='clear'
 
+# file listing
+alias ls='ls -G'
+alias ll='ls -lG'
+# hidden:
+alias la='ls -laG'
+# recursive:
+alias lr='ls -RG'
+# hidden recursive:
+alias lar='ls -ldG $(find .)'
 
-# Exports
-export PATH="/usr/local/opt/mysql-client/bin:$PATH"
-export GPG_TTY=$(tty)
+alias svps='ssh -i ~/.ssh/id_svps_ed25519 sv443@178.18.251.112'
