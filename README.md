@@ -16,4 +16,4 @@ My dotfiles for:
 | [`profile.ps1`](./profile.ps1) | [Powershell](https://docs.microsoft.com/en-us/powershell/) / [Pwsh](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.1) profile |
 | [`Termux/bash.bashrc`](./Termux/bash.bashrc) | [Termux Bashrc](https://wiki.termux.com/wiki/Shells) |
 | [`Termux/termux.properties`](./Termux/termux.properties) | [Termux settings](https://wiki.termux.com/wiki/Terminal_Settings) |
-| [`Termux/motd`](./Termux/motd) | Termux MOTD / startup text |
+| [`Termux/motd`](./Termux/motd) | [Termux MOTD](https://www.reddit.com/r/termux/comments/bgdrrh/comment/elk45ms) (startup text) |
