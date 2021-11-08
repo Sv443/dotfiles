@@ -1,8 +1,7 @@
 function prompt
 {
-    Write-Host ("PS ") -nonewline -foregroundcolor White
-    Write-Host (get-item $PWD) -nonewline -foregroundcolor Magenta
-    Write-Host (">") -nonewline -foregroundcolor White
+    Write-Host (get-item $PWD) -nonewline -foregroundcolor White
+    Write-Host (">") -nonewline -foregroundcolor Magenta
     return " "
 }
 
