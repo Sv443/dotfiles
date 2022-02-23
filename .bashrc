@@ -4,14 +4,14 @@ alias cl="clear"
 alias cls="clear"
 
 # file listing
-alias ls="ls -G"
-alias ll="ls -lG"
+alias ls="ls --color"
+alias ll="ls -l --color"
 # hidden:
-alias la="ls -laG"
+alias la="ls -la --color"
 # recursive:
-alias lr="ls -RG"
+alias lr="ls -R --color"
 # hidden recursive:
-alias lar="ls -ldG $(find .)"
+# alias lar="ls -ldG $(find .)" # (disabled because it takes 20 seconds to load)
 
 
 # custom prompt
