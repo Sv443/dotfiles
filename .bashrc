@@ -13,6 +13,9 @@ alias lr="ls -R --color"
 # hidden recursive:
 # alias lar="ls -ldG $(find .)" # (disabled because it takes 20 seconds to load)
 
+# count files recursive
+alias cfr="find -type f | wc -l"
+
 
 # custom prompt
 PS1="\e[0m\w\e[1;35m\$\e[0m "
