@@ -17,3 +17,6 @@ alias la='ls -laG'
 alias lr='ls -RG'
 # hidden recursive - TODO: doesn't work
 # alias lar='ls -ldG $(find .)'
+
+# count files recursive
+alias cfr='find -type f | wc -l'
