@@ -26,3 +26,6 @@ alias p2s='pm2 start'
 alias p2r='pm2 restart'
 alias p2stp='pm2 stop'
 alias p2l='pm2 logs'
+
+# https://github.com/nvbn/thefuck
+"$(thefuck --alias)"

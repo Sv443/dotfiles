@@ -26,6 +26,9 @@ alias p2l='pm2 logs'
 PS1="\e[0m\w\e[1;35m\$\e[0m "
 # PS1="\e[1;30m\u:\e[0m\w\e[1;35m\$\e[0m "
 
+# https://github.com/nvbn/thefuck
+"$(thefuck --alias)"
+
 
 # to source (include) this file put this in '~/.bashrc':
 # if [ -f /path/to/dotfiles/.bashrc ]; then
